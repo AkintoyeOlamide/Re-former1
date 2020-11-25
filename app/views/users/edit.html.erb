@@ -7,7 +7,7 @@
   <% end %>  
 
   UserName: <%= f.text_field :username %>
-  Email: <%= f.text_field :email, placeholder: 'example@example.com' %>
-  Password: <%= f.text_field :password, placeholder: '**********' %>
+  Email: <%= f.email_field :email, placeholder: 'example@example.com' %>
+  Password: <%= f.password_field :password, placeholder: '**********' %>
   <%= f.submit "Update" %>
 <% end %>
